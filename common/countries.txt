@@ -14,6 +14,7 @@ FRR		= "countries/Ferrara.txt"
 GEN		= "countries/Genoa.txt"
 FRT		= "countries/FranceItaly.txt" 
 BRG		= "countries/Burgundy.txt"
+CRH    = "countries/Confederation of the Rhine.txt"
 PRV		= "countries/Provence.txt"
 
 GNV		= "countries/Geneve.txt"

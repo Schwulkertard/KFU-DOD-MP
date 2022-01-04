@@ -1,5 +1,6 @@
 owner = BRG
 controller = BRG
+add_core = CRH
 add_core = BRG
 add_core = FRA
 fort = 1 

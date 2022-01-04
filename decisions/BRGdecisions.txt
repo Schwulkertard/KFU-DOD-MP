@@ -448,6 +448,110 @@ political_decisions = {
 		}
 	
 	}
+
+	form_confederation_of_rhine_brg = {
+		potential = {
+			tag = BRG
+			NOT = { exists = CRH }
+			NOT = { has_global_flag = burgundy_france }
+			NOT = { has_global_flag = confed_of_rhine_formed }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			597 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+			586 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						OR = {
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			primary_culture = dutch
+			add_accepted_culture = burgundian
+			add_accepted_culture = rheinish
+			add_accepted_culture = swiss
+			capital = 576
+			badboy = 10
+			change_tag = CRH
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = rheinish
+						tag = FRI
+						tag = HEK
+						tag = LIP
+						tag = BAD
+						tag = WUR
+					}
+					NOT = { tag = AUS }
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					NOT = { tag = THIS }
+				}
+				country_event = 333458
+			}
+			SWI = { all_core = { add_core = CRH } }
+			BRG = { all_core = { remove_core = BRG } }
+			set_global_flag = confed_of_rhine_formed
+		}
+		ai_will_do = {
+    	factor = 1
+      modifier = { factor = 0 badboy = 0.6 }
+  	}
+	}
+
+	form_france_brg = {
+		potential = {
+			tag = BRG
+			FRA = { exists = no }
+			NOT = { has_country_flag = annex_boers }
+			NOT = { has_country_flag = confed_of_rhine_formed }
+			NOT = { has_global_flag = burgundy_france }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			408 = { owned_by = THIS }
+			425 = { owned_by = THIS }
+			428 = { owned_by = THIS }
+			438 = { owned_by = THIS }
+			441 = { owned_by = THIS }
+		}
+		effect = {
+			prestige = 20
+			capital = 425
+			remove_accepted_culture = rheinish
+			add_accepted_culture = french
+			add_accepted_culture = breton
+			any_owned = {
+	      limit = {
+					OR = {
+						is_core = GER
+					}
+	      }
+				remove_core = THIS
+			}
+			change_tag = FRA
+			set_global_flag = burgundy_france
+		}
+	}
 	
 	accept_rhenish_BRG = { 
 		potential = { 

@@ -2,6 +2,7 @@ owner = BRG
 controller = BRG
 add_core = BRG
 add_core = LRR
+add_core = CRH
 add_core = RHI
 trade_goods = grain
 life_rating = 33
