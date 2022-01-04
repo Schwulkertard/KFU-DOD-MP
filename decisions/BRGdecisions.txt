@@ -482,10 +482,9 @@ political_decisions = {
 			}
 		}
 		effect = {
-			primary_culture = dutch
-			add_accepted_culture = burgundian
+			primary_culture = burgundian
 			add_accepted_culture = rheinish
-			add_accepted_culture = swiss
+			add_accepted_culture = dutch
 			capital = 576
 			badboy = 10
 			change_tag = CRH

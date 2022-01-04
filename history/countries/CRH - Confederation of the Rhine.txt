@@ -1,8 +1,8 @@
 capital = 390
-primary_culture = dutch
+primary_culture = burgundian
 culture = rheinish
 religion = protestant
-government = absolute_monarchy
+government = hms_government
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.8

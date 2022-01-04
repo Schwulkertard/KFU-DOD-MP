@@ -1,6 +1,5 @@
-owner = CHG
-controller = CHG
-add_core = CHG   
+owner = TJK
+controller = TJK
 add_core = ARY
 add_core = TJK
 trade_goods = cattle

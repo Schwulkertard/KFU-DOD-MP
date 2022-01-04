@@ -46,20 +46,20 @@
 	}
 
 	clergymen = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 100
 	}
 
 	artisans = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 300
 	}
 
 	farmers = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 5500
 	}
 
@@ -82,20 +82,20 @@
 	}
 
 	clergymen = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 30
 	}
 
 	artisans = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 150
 	}
 
 	farmers = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 1770
 	}
 }
@@ -151,62 +151,62 @@
 	}
 
 	aristocrats = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 100
 	}
 
 	clergymen = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 100
 	}
 
 	artisans = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 400
 	}
 
 	farmers = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 3500
 	}
 
 	clergymen = {
-		culture = bulgarian
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = bulgarian
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 100
 	}
 
 	farmers = {
-		culture = bulgarian
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 2825
 	}
 
 	clergymen = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 125
 	}
 
 	farmers = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 1800
 	}
 }
@@ -268,37 +268,37 @@
 	}
 
 	clergymen = {
-		culture = ashkenazi
+		culture = russian
 		religion = jewish
 		size = 10
 	}
 
 	artisans = {
-		culture = ashkenazi
-		religion = jewish
+		culture = russian
+		religion = orthodox
 		size = 200
 	}
 
 	farmers = {
-		culture = ashkenazi
-		religion = jewish
+		culture = russian
+		religion = orthodox
 		size = 790
 	}
 
 	clergymen = {
-		culture = greek
+		culture = russian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = greek
+		culture = russian
 		religion = orthodox
 		size = 400
 	}
 
 	farmers = {
-		culture = greek
+		culture = russian
 		religion = orthodox
 		size = 1500
 	}
@@ -337,26 +337,26 @@
 	}
 
 	aristocrats = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 150
 	}
 
 	clergymen = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 150
 	}
 
 	artisans = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 300
 	}
 
 	farmers = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 5325
 	}
 
@@ -457,7 +457,7 @@
 	}
 
 	farmers = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 10000
 	}
@@ -534,56 +534,56 @@
 	}
 
 	clergymen = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 25
 	}
 
 	artisans = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 750
 	}
 
 	farmers = {
-		culture = greek
-		religion = orthodox
+		culture = ashkenazi
+		religion = jewish
 		size = 200
 	}
 
 	clergymen = {
-		culture = south_italian
-		religion = catholic
+		culture = ruthenian
+		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = south_italian
-		religion = catholic
+		culture = ruthenian
+		religion = orthodox
 		size = 4000
 	}
 
 	farmers = {
-		culture = south_italian
-		religion = catholic
+		culture = ruthenian
+		religion = orthodox
 		size = 900
 	}
 
 	clergymen = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 750
 	}
 
 	farmers = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 1175
 	}
 }
@@ -651,19 +651,19 @@
 	}
 
 	clergymen = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 200
 	}
 
 	farmers = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 20000
 	}
@@ -767,37 +767,37 @@
 	}
 
 	clergymen = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 150
 	}
 
 	farmers = {
-		culture = south_german
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 2775
 	}
 
 	clergymen = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 125
 	}
 
 	artisans = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 350
 	}
 
 	farmers = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 14375
 	}
@@ -927,20 +927,20 @@
 	}
 
 	clergymen = {
-		culture = north_german
-		religion = protestant
+		culture = ruthenian
+		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = north_german
-		religion = protestant
+		culture = ruthenian
+		religion = orthodox
 		size = 300
 	}
 
 	farmers = {
-		culture = north_german
-		religion = protestant
+		culture = ruthenian
+		religion = orthodox
 		size = 3575
 	}
 
@@ -1214,56 +1214,56 @@
 	}
 
 	clergymen = {
-		culture = ashkenazi
-		religion = jewish
-		size = 50
-	}
-
-	artisans = {
-		culture = ashkenazi
-		religion = jewish
-		size = 750
-	}
-
-	farmers = {
-		culture = ashkenazi
-		religion = jewish
-		size = 1675
-	}
-
-	clergymen = {
-		culture = greek
+		culture = russian
 		religion = orthodox
 		size = 50
 	}
 
 	artisans = {
-		culture = greek
+		culture = russian
+		religion = orthodox
+		size = 750
+	}
+
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 1675
+	}
+
+	clergymen = {
+		culture = russian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = russian
 		religion = orthodox
 		size = 1100
 	}
 
 	farmers = {
-		culture = greek
+		culture = russian
 		religion = orthodox
 		size = 3900
 	}
 
 	clergymen = {
-		culture = south_german
-		religion = catholic
+		culture = russian
+		religion = orthodox
 		size = 25
 	}
 
 	artisans = {
-		culture = south_german
-		religion = catholic
+		culture = russian
+		religion = orthodox
 		size = 75
 	}
 
 	farmers = {
-		culture = south_german
-		religion = catholic
+		culture = russian
+		religion = orthodox
 		size = 875
 	}
 }
