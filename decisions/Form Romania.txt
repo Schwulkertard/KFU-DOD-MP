@@ -6,78 +6,11 @@ political_decisions = {
 		}
 
 		allow = {
+			state_n_government = 1
 			NOT = { war = yes }
 			NOT = { is_vassal = yes }
-			OR = {
-				AND = {
-					MOL = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-									in_sphere = THIS
-									}
-							}
-						}
-					}
-					SIE = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-									in_sphere = THIS
-									}
-							}
-						}
-					}
-				}
-
-				AND = {
-					MOL = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-									in_sphere = THIS
-									}
-							}
-						}
-					}
-					WAL = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-									in_sphere = THIS
-									}
-							}
-						}
-					}
-				}
-
-				AND = {
-					SIE = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-									in_sphere = THIS
-									}
-							}
-						}
-					}
-					WAL = {
-						all_core = {
-							OR = {
-								owned_by = THIS
-								owner = {
-									in_sphere = THIS
-									}
-							}
-						}
-					}
-				}
-			}		
+			664 = { owned_by = THIS }
+			670 = { owned_by = THIS }
 		}
 		effect = {
 			prestige = 20
@@ -210,6 +143,26 @@ political_decisions = {
 			}
 		}
 	}
+
+	romanian_bulgarian_union = {
+    potential = {
+        tag = ROM
+		NOT = {
+				has_country_flag = unite_with_bulgaria
+			}
+      }
+    allow = {
+      revolution_n_counterrevolution = 1
+      owns = 809
+      owns = 814
+      owns = 817
+    }
+    effect = {
+		set_country_flag = unite_with_bulgaria
+      add_accepted_culture = bulgarian
+      BUL = { all_core = { add_core = THIS } }
+    }
+  }
 
 	unite_with_romania = {
 		picture = create_romania

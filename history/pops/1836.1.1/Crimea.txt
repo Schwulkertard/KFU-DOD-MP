@@ -420,39 +420,39 @@
 #Odessa (248000/62000 POPS)
 968 = {
 	aristocrats = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 550
 	}
 
 	bureaucrats = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 75
 	}
 
 	officers = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 250
 	}
 
 	clergymen = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 425
 	}
 
 	soldiers = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size= 8000
 
 	}
 
 	farmers = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 12000
 	}
 
@@ -590,33 +590,33 @@
 #Pervomaisk (496000/124000 POPS)
 969 = {
 	aristocrats = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 1000
 	}
 
 	clergymen = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 550
 	}
 
 	artisans = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 1300
 	}
 
 	soldiers = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size= 6000
 
 	}
 
 	farmers = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 15000
 	}
 
@@ -676,33 +676,33 @@
 #Nikolaev (248000/62000 POPS)
 970 = {
 	aristocrats = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 850
 	}
 
 	clergymen = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 275
 	}
 
 	artisans = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 700
 	}
 
 	soldiers = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size= 4000
 
 	}
 
 	farmers = {
-		culture = crimean
-		religion = sunni
+		culture = romanian
+		religion = orthodox
 		size = 19000
 	}
 

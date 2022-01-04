@@ -164,7 +164,6 @@ political_decisions = {
 		rank = 16 
 		OR = { 
 		all_core = { owned_by = THIS }
-		war_policy = jingoism
 			}
 		}	
 		
