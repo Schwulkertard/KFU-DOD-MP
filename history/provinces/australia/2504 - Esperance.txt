@@ -1,4 +1,6 @@
 add_core = GAN
+owner = GAN
+controller = GAN
 trade_goods = fruit
 terrain = dryhills
 life_rating = 30
