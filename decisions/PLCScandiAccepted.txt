@@ -39,7 +39,6 @@ baltic_cultures = {
 		}
 		allow = {
             citizens_rights = all_voting_pops
-			NOT = { religious_policy = moralism }
 			revolution_n_counterrevolution = 1 
 			owns = 958 
 			owns = 718 

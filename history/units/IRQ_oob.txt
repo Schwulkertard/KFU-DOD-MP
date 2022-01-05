@@ -37,7 +37,7 @@ army = {
 
 	regiment = {
 		name= "4. Iraqi"
-		type = infantry
+		type = artillery
 		home = 923
 	}
 }
@@ -47,7 +47,7 @@ army = {
 	location = 926
 	regiment = {
 		name= "1. Iraqi"
-		type = infantry
+		type = artillery
 		home = 926
 	}
 
