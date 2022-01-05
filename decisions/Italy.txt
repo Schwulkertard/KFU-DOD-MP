@@ -507,6 +507,7 @@ political_decisions = {
 		allow = { 
 		nationalism_n_imperialism = 1 
 		780 = { owned_by = THIS }
+		771 = { owned_by = THIS }
 		}
 		
 		effect = { 
