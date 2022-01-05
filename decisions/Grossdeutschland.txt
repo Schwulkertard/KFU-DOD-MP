@@ -461,35 +461,16 @@ political_decisions = {
 	tag = CAE
 	NOT = { has_country_flag = rheinish_acc }
 	NOT = { accepted_culture = rheinish }
-	any_owned_province = { is_core = RHI }
 	}
 	
 	allow = { 
 	NOT = { citizenship_policy = residency }
+	any_owned_province = { is_core = RHI }
 	}
 	
 	effect = { 
 	set_country_flag = rheinish_acc
 	add_accepted_culture = rheinish 
-	   }
-	
-    }
-
-	integrate_rhenish_CAE= { 
-	potential = { 
-	tag = CAE
-	NOT = { has_country_flag = south_acc }
-	NOT = { accepted_culture = south_german }
-	any_owned_province = { is_core = WUR } any_owned_province = { is_core = AUS } any_owned_province = { is_core = BAV }
-	}
-	
-	allow = { 
-	NOT = { citizenship_policy = residency }
-	}
-	
-	effect = { 
-	set_country_flag = south_acc
-	add_accepted_culture = south_german 
 	   }
 	
     }
@@ -520,7 +501,7 @@ political_decisions = {
 	potential = { 
 	OR = { tag = NGF tag = RHI }
 	NOT = { accepted_culture = south_german }
-	OR = { any_owned_province = { is_core = BAV } any_owned_province = { is_core = SWI } 
+	OR = { any_owned_province = { is_core = BAV } any_owned_province = { is_core = SWI } any_owned_province = { is_core = AUS } }
 	NOT = { has_country_flag = south_acc }
 	}
 	
@@ -530,10 +511,9 @@ political_decisions = {
 	
 	effect = { 
 	set_country_flag = south_acc
-	add_accepted_culture = south_german 
+	add_accepted_culture = north_german 
 	}
 	
 	}
-}
 }
 	
