@@ -75,6 +75,24 @@ form_iberia = {
 			
 		
 	}
+
+	his_move_capital = {
+		potential = {
+			tag = HIS
+			NOT = { has_country_flag = his_capital }
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+			social_science = 1
+		}
+
+		effect = {
+			country_event = 500041
+			set_country_flag = his_capital
+		}
+	}
+}
 		
 	effect = { 
 	set_country_flag = basqueland
@@ -149,24 +167,28 @@ form_iberia = {
 	mancomunidad_de_naciones = { 
 	potential = { 
 	tag = SPA  
-	has_country_flag = spaCLM
 	NOT = { has_country_flag = mancomunidad }
-	government = hms_government
+	NOT = { has_country_flag = iberian_union }
 	}
 	
 	allow = { 
 	revolution_n_counterrevolution = 1 
+	2264 = { owned_by = THIS }
+	2172 = { owned_by = THIS }
 	}
 	
 	effect = {
-	set_country_flag = mancomunidad	
-	any_country = { 
-	limit = { 
-		vassal_of = SPA 		
-			}
 		country_event = 333222
+		change_tag = HIS
+	set_country_flag = mancomunidad	
+	add_accepted_culture = mexican
+		add_accepted_culture = lusitanian
+		add_accepted_culture = granadan
+		add_accepted_culture = central_american
+		add_accepted_culture = caribeno
+		CLM = { all_core = { add_core = HIS } }
+		CUB = { all_core = { add_core = HIS } }
+		SPA = { all_core = { add_core = HIS } }
 			}
 		}
-	}
-	
 }
