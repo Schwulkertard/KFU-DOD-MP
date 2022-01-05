@@ -155,4 +155,23 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	ETH_somalia = {
+		potential = {
+			tag = ETH
+		}
+		
+		allow = {
+			1868 = { owned_by = THIS }
+			1867 = { owned_by = THIS }
+			war = no
+		}
+		
+		effect = {
+			prestige = 20
+			add_accepted_culture = somali
+			}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

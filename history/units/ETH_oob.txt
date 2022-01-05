@@ -35,6 +35,24 @@ army = {
 		home = 1860
 	}
 
+	regiment = {
+		name= "4th 'Galla' Division"
+		type = infantry
+		home = 1860
+	}
+
+	regiment = {
+		name= "5th 'Galla' Division"
+		type = infantry
+		home = 1860
+	}
+
+	regiment = {
+		name= "6th 'Galla' Division"
+		type = infantry
+		home = 1860
+	}
+
 }
 
 army = {
