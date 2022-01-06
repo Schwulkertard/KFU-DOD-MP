@@ -405,6 +405,7 @@ political_decisions = {
       }
       NOT = { accepted_culture = irish }
      has_country_flag = english_way
+	  NOT = { has_country_flag = french_way }
     allow = {
       revolution_n_counterrevolution = 1
       IRE = {
@@ -459,6 +460,7 @@ political_decisions = {
       }
       NOT = { accepted_culture = provencal }
 	  has_country_flag = french_way
+	  NOT = { has_country_flag = english_way }
     allow = {
       revolution_n_counterrevolution = 1
       OCC = {
@@ -469,6 +471,46 @@ political_decisions = {
       prestige = 5
       add_accepted_culture = provencal
 	  set_country_flag = provencal_way
+    }
+  }
+   
+   integrating_French_english_way = {
+    potential = {
+        tag = DUA
+      }
+      NOT = { accepted_culture = french }
+	  NOT = { has_country_flag = french_way   }
+	  has_country_flag = english_way
+    allow = {
+      mass_politics = 1
+      FRA = {
+        any_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = french
+	  set_country_flag = french_way
+    }
+  }
+
+  integrating_England_french_way = {
+    potential = {
+        tag = DUA
+      }
+      NOT = { accepted_culture = english }
+	  NOT = { has_country_flag = english_way   }
+	  has_country_flag = french_way
+    allow = {
+      mass_politics = 1
+      ENG = {
+        any_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = english
+	  set_country_flag = english_way
     }
   }
 
