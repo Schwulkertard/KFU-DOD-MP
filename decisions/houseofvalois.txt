@@ -398,4 +398,78 @@ political_decisions = {
 			}
 		}
 	}
+
+    integrating_irish = {
+    potential = {
+        tag = DUA
+      }
+      NOT = { accepted_culture = irish }
+     has_country_flag = english_way
+    allow = {
+      revolution_n_counterrevolution = 1
+      IRE = {
+        any_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = irish
+    }
+  }
+
+  integrating_English = {
+    potential = {
+        tag = DUA
+      }
+      NOT = { accepted_culture = english }
+    allow = {
+      nationalism_n_imperialism = 1
+      ENG = {
+        any_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = english
+	  set_country_flag = english_way
+    }
+  }
+
+  integrating_French = {
+    potential = {
+        tag = DUA
+      }
+      NOT = { accepted_culture = french }
+    allow = {
+      nationalism_n_imperialism = 1
+      FRA = {
+        any_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = french
+	  set_country_flag = french_way
+    }
+  }
+
+  integrating_provencal = {
+    potential = {
+        tag = DUA
+      }
+      NOT = { accepted_culture = provencal }
+	  has_country_flag = french_way
+    allow = {
+      revolution_n_counterrevolution = 1
+      OCC = {
+        any_core = { owned_by = THIS }
+      }
+    }
+    effect = {
+      prestige = 5
+      add_accepted_culture = provencal
+	  set_country_flag = provencal_way
+    }
+  }
+
 }
